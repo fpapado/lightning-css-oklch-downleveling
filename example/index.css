@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  margin-top: 0.5rem;
+}
+
+:where(section > div:nth-child(2)) {
+  width: 44px;
+  height: 44px;
+  /* A default background to test against; all squares should be white */
+  background: red;
+  border: 1px solid black;
+}
+
+.lch-percentage {
+  background: lch(50% 0 223.97);
+}
+.lch-number {
+  background: lch(50 0 223.97);
+}
+.oklch-percentage {
+  background: oklch(56.9% 0 102.07);
+}
+.oklch-number {
+  background: oklch(0.569 0 102.07);
+}
+.lab-percentage {
+  background: lab(50% 0 0);
+}
+.lab-number {
+  background: lab(50 0 0);
+}
+.oklab-percentage {
+  background: oklab(56.9% 0 0);
+}
+.oklab-number {
+  background: oklab(0.569 0 0);
+}

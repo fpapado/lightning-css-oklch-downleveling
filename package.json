@@ -1,0 +1,17 @@
+{
+  "name": "lightning-css-oklch-downleveling",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "serve example/",
+    "build": "echo TODO: use the CLI to transpile the CSS",
+    "test": "node matrix-test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lightningcss": "^1.19.0",
+    "serve": "^14.2.0"
+  }
+}
